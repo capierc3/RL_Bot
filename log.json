@@ -1,0 +1,1035 @@
+[
+  {
+    "user": "Team DreadLobster",
+    "data": {
+      "platformInfo": {
+        "platformSlug": "steam",
+        "platformUserId": null,
+        "platformUserHandle": "Team DreadLobster",
+        "platformUserIdentifier": "76561198007618073",
+        "avatarUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a5/a548fc0a618ef21290f44ebc5a731b182f52cda9_full.jpg",
+        "additionalParameters": null
+      },
+      "userInfo": {
+        "userId": null,
+        "isPremium": false,
+        "isVerified": false,
+        "isInfluencer": false,
+        "isPartner": false,
+        "countryCode": null,
+        "customAvatarUrl": null,
+        "customHeroUrl": null,
+        "socialAccounts": [],
+        "pageviews": 983,
+        "isSuspicious": null
+      },
+      "metadata": {
+        "lastUpdated": {
+          "value": "2022-03-08T03:40:43.4200768+00:00",
+          "displayValue": "2022-03-08T03:40:43.4200768+00:00"
+        },
+        "playerId": 7814651,
+        "currentSeason": 19
+      },
+      "segments": [
+        {
+          "type": "overview",
+          "attributes": {},
+          "metadata": {
+            "name": "Lifetime"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "wins": {
+              "rank": 464225,
+              "percentile": 88,
+              "displayName": "Wins",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 2929,
+              "displayValue": "2,929",
+              "displayType": "Number"
+            },
+            "goals": {
+              "rank": 606677,
+              "percentile": 84,
+              "displayName": "Goals",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 6079,
+              "displayValue": "6,079",
+              "displayType": "Number"
+            },
+            "mVPs": {
+              "rank": 493086,
+              "percentile": 87,
+              "displayName": "MVPs",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 1200,
+              "displayValue": "1,200",
+              "displayType": "Number"
+            },
+            "saves": {
+              "rank": 369227,
+              "percentile": 90,
+              "displayName": "Saves",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 5951,
+              "displayValue": "5,951",
+              "displayType": "Number"
+            },
+            "assists": {
+              "rank": 615916,
+              "percentile": 84,
+              "displayName": "Assists",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 2162,
+              "displayValue": "2,162",
+              "displayType": "Number"
+            },
+            "shots": {
+              "rank": 518525,
+              "percentile": 86,
+              "displayName": "Shots",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 13708,
+              "displayValue": "13,708",
+              "displayType": "Number"
+            },
+            "goalShotRatio": {
+              "rank": 2792737,
+              "percentile": 22,
+              "displayName": "Goal Shot Ratio",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 44.346367084913915,
+              "displayValue": "44.3",
+              "displayType": "NumberPrecision1"
+            },
+            "score": {
+              "rank": 139498,
+              "percentile": 96.4,
+              "displayName": "TRN Score",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {},
+              "value": 850501.9,
+              "displayValue": "850,501.9",
+              "displayType": "NumberPrecision1"
+            },
+            "seasonRewardLevel": {
+              "rank": null,
+              "percentile": 90,
+              "displayName": "Season Reward Level",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-16.png",
+                "rankName": "Champion"
+              },
+              "value": 6,
+              "displayValue": "6",
+              "displayType": "Number"
+            },
+            "seasonRewardWins": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "Season Reward Wins",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {},
+              "value": 0,
+              "displayValue": "0",
+              "displayType": "Number"
+            },
+            "tRNRating": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "TRN Rating",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {},
+              "value": 2731.191024357962,
+              "displayValue": "2,731.2",
+              "displayType": "NumberPrecision1"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 0,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Un-Ranked"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-0.png",
+                "name": "Unranked"
+              },
+              "value": 0,
+              "displayValue": "0",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "name": "Division I"
+              },
+              "value": 0,
+              "displayValue": "0",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 0,
+              "displayValue": "0",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "win"
+              },
+              "value": 0,
+              "displayValue": "0",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 542187,
+              "percentile": 93,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 1618,
+              "displayValue": "1,618",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 10,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Ranked Duel 1v1"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 41,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-9.png",
+                "name": "Gold III"
+              },
+              "value": 9,
+              "displayValue": "9",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 54,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 9,
+                "deltaUp": 10,
+                "name": "Division III"
+              },
+              "value": 2,
+              "displayValue": "2",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 56,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 3,
+              "displayValue": "3",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 9,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "loss"
+              },
+              "value": 3,
+              "displayValue": "-3",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 3755716,
+              "percentile": 40,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 607,
+              "displayValue": "607",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 11,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Ranked Doubles 2v2"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 71,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-15.png",
+                "name": "Diamond III"
+              },
+              "value": 15,
+              "displayValue": "15",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 26,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 16,
+                "deltaUp": 8,
+                "name": "Division II"
+              },
+              "value": 1,
+              "displayValue": "1",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 89,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 262,
+              "displayValue": "262",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 62,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "win"
+              },
+              "value": 1,
+              "displayValue": "1",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 1780520,
+              "percentile": 75,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 1020,
+              "displayValue": "1,020",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 13,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Ranked Standard 3v3"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 76,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-14.png",
+                "name": "Diamond II"
+              },
+              "value": 14,
+              "displayValue": "14",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 54,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 12,
+                "deltaUp": 12,
+                "name": "Division III"
+              },
+              "value": 2,
+              "displayValue": "2",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 98.2,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 426,
+              "displayValue": "426",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 33,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "loss"
+              },
+              "value": 1,
+              "displayValue": "-1",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 1345551,
+              "percentile": 81,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 960,
+              "displayValue": "960",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 27,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Hoops"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 70,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-11.png",
+                "name": "Platinum II"
+              },
+              "value": 11,
+              "displayValue": "11",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 62,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 12,
+                "deltaUp": 7,
+                "name": "Division III"
+              },
+              "value": 2,
+              "displayValue": "2",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 75,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 3,
+              "displayValue": "3",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 13,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "loss"
+              },
+              "value": 2,
+              "displayValue": "-2",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 1632023,
+              "percentile": 73,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 710,
+              "displayValue": "710",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 28,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Rumble"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 73,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-12.png",
+                "name": "Platinum III"
+              },
+              "value": 12,
+              "displayValue": "12",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 56,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 13,
+                "deltaUp": 6,
+                "name": "Division III"
+              },
+              "value": 2,
+              "displayValue": "2",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 81,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 6,
+              "displayValue": "6",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 56,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "win"
+              },
+              "value": 1,
+              "displayValue": "1",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 1392912,
+              "percentile": 78,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 791,
+              "displayValue": "791",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 29,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Dropshot"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 61,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-8.png",
+                "name": "Gold II"
+              },
+              "value": 8,
+              "displayValue": "8",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 44,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 10,
+                "deltaUp": 9,
+                "name": "Division II"
+              },
+              "value": 1,
+              "displayValue": "1",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 77,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 2,
+              "displayValue": "2",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 97.5,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "win"
+              },
+              "value": 5,
+              "displayValue": "5",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 3177651,
+              "percentile": 45,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 509,
+              "displayValue": "509",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 30,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Snowday"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 77,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-9.png",
+                "name": "Gold III"
+              },
+              "value": 9,
+              "displayValue": "9",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": 69,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 19,
+                "name": "Division III"
+              },
+              "value": 2,
+              "displayValue": "2",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 90,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 5,
+              "displayValue": "5",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 52,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "win"
+              },
+              "value": 1,
+              "displayValue": "1",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 1415272,
+              "percentile": 75,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 617,
+              "displayValue": "617",
+              "displayType": "Number"
+            }
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "playlistId": 34,
+            "season": 19
+          },
+          "metadata": {
+            "name": "Tournament Matches"
+          },
+          "expiryDate": "0001-01-01T00:00:00+00:00",
+          "stats": {
+            "tier": {
+              "rank": null,
+              "percentile": 78,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "iconUrl": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-16.png",
+                "name": "Champion I"
+              },
+              "value": 16,
+              "displayValue": "16",
+              "displayType": "Number"
+            },
+            "division": {
+              "rank": null,
+              "percentile": null,
+              "displayName": "Matches",
+              "displayCategory": "General",
+              "category": "general",
+              "metadata": {
+                "deltaDown": 32,
+                "name": "Division I"
+              },
+              "value": 0,
+              "displayValue": "0",
+              "displayType": "Number"
+            },
+            "matchesPlayed": {
+              "rank": null,
+              "percentile": 64,
+              "displayName": "Matches",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {},
+              "value": 18,
+              "displayValue": "18",
+              "displayType": "Number"
+            },
+            "winStreak": {
+              "rank": null,
+              "percentile": 13,
+              "displayName": "WinStreak",
+              "displayCategory": "Performance",
+              "category": "performance",
+              "metadata": {
+                "type": "loss"
+              },
+              "value": 2,
+              "displayValue": "-2",
+              "displayType": "Number"
+            },
+            "rating": {
+              "rank": 835040,
+              "percentile": 81,
+              "displayName": "Rating",
+              "displayCategory": "Skill",
+              "category": "skill",
+              "metadata": {},
+              "value": 1093,
+              "displayValue": "1,093",
+              "displayType": "Number"
+            }
+          }
+        }
+      ],
+      "availableSegments": [
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 1
+          },
+          "metadata": {
+            "name": "1"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 2
+          },
+          "metadata": {
+            "name": "2"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 3
+          },
+          "metadata": {
+            "name": "3"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 4
+          },
+          "metadata": {
+            "name": "4"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 5
+          },
+          "metadata": {
+            "name": "5"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 6
+          },
+          "metadata": {
+            "name": "6"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 7
+          },
+          "metadata": {
+            "name": "7"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 8
+          },
+          "metadata": {
+            "name": "8"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 9
+          },
+          "metadata": {
+            "name": "9"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 10
+          },
+          "metadata": {
+            "name": "10"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 11
+          },
+          "metadata": {
+            "name": "11"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 12
+          },
+          "metadata": {
+            "name": "12"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 13
+          },
+          "metadata": {
+            "name": "13"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 14
+          },
+          "metadata": {
+            "name": "14"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 15
+          },
+          "metadata": {
+            "name": "Season 1 (15)"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 16
+          },
+          "metadata": {
+            "name": "Season 2 (16)"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 17
+          },
+          "metadata": {
+            "name": "Season 3 (17)"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 18
+          },
+          "metadata": {
+            "name": "Season 4 (18)"
+          }
+        },
+        {
+          "type": "playlist",
+          "attributes": {
+            "season": 19
+          },
+          "metadata": {
+            "name": "Season 5 (19)"
+          }
+        }
+      ],
+      "expiryDate": "2022-03-08T03:44:45.080951+00:00"
+    }
+  }
+]

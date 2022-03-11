@@ -1,5 +1,4 @@
 const fs = require('fs');
-const Discord = require('discord.js');
 const fetch = require("node-fetch");
 
 module.exports = {
@@ -14,8 +13,12 @@ module.exports = {
             if (i > 0) user += " ";
             user += args[i];
         }
-        // find user entry
+        // find user entry, check if it exists in log
         let userIdx = getUser(log, user);
+        if (userIdx === -404) {
+            msg.reply("Player not found");
+            return;
+        }
         // check for update and update if needed
         let needUpdate = checkUpdate(log[userIdx].data.expiryDate);
         if (needUpdate) {

@@ -11,7 +11,16 @@ Discord bot to view rocket league stats.
 - !rank user
 	+ user: user name of player
 	+ command shows the rank of the main 4 play list
+	+ user log entry is updated if past the expiry date
+
+### Files needed not in git
+
+- .env file:
+	+ this file is needed to run the discord bot, add it to the root dir
+	+ file needs one line that contains the token given by discord. 
+	 	+ "TOKEN=...."
 
 ### coming builds:
-- user updating coming asap
-- leader boards 
+- !help feature to show commands
+- leader boards
+- ???

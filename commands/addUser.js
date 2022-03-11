@@ -8,10 +8,15 @@ module.exports = {
     description: 'gets players rank',
     execute(msg, args) {
         //check input
-        if (args.length !== 2) {
-            msg.reply("wrong format\n" +
-                "format:  needed !.. platform #\n" +
-                "example: !. steam 123456789")
+        let userID = args[1];
+        if (args.length > 2 && args[0]) {
+            userID = "";
+            for (let i = 1; i < args.length; i++) {
+                if (i > 1) {
+                    userID += " ";
+                }
+                userID += args[i];
+            }
         }
         //get log
         let json;
@@ -23,11 +28,11 @@ module.exports = {
             json = []
         }
         // check if user is already in log
-        let res = ""
+        let res = "user not found"
         let found = false;
         for (let i = 0; i < json.length; i++) {
             let id = json[i].data.platformInfo.platformUserIdentifier;
-            if (id === args[1]) {
+            if (id === userID) {
                 res = json[i].data.platformInfo.platformUserHandle + " already added."
                 found = true
                 break;
@@ -35,7 +40,7 @@ module.exports = {
         }
         // gets user info if not found
         if (!found) {
-            let url = base_url + args[0] + '/' + args[1];
+            let url = base_url + args[0] + '/' + userID;
             fetch(url, {
                 method: 'GET',
                 headers: {
@@ -62,13 +67,17 @@ module.exports = {
  * @param msg discord message
  */
 function saveJson(json, data, msg) {
-    let user = data.data.platformInfo.platformUserHandle;
-    let entry = {
-        "user": user,
-        "data": data.data
+    try {
+        let user = data.data.platformInfo.platformUserHandle;
+        let entry = {
+            "user": user,
+            "data": data.data
+        }
+        json.push(entry);
+        let writeJson = JSON.stringify(json, null, 2);
+        fs.writeFileSync('log.json', writeJson);
+        msg.reply(user + " added to tracker")
+    } catch (error) {
+        msg.reply('user not found.')
     }
-    json.push(entry);
-    let writeJson = JSON.stringify(json, null, 2);
-    fs.writeFileSync('log.json', writeJson);
-    msg.reply(user + " added to tracker")
 }

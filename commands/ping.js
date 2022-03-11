@@ -1,8 +1,9 @@
+const fs = require("fs");
+
 module.exports = {
-    name: 'ping',
-    description: 'Ping!',
+    name: '!ping',
+    description: 'test commands',
     execute(msg, args) {
-        msg.reply('pong');
         msg.channel.send('pong');
     },
 };

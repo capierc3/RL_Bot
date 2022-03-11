@@ -2,7 +2,6 @@ const fs = require('fs');
 const Discord = require('discord.js');
 const base_url = "https://api.tracker.gg/api/v2/rocket-league/standard/profile/"
 const fetch = require('node-fetch');
-const {Builder, By, Key, until} = require('selenium-webdriver');
 
 
 module.exports = {

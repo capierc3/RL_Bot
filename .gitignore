@@ -63,3 +63,6 @@ typings/
 #jetbrains
 idea
 .idea
+
+# user json
+log.json

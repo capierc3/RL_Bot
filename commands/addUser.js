@@ -1,5 +1,4 @@
 const fs = require('fs');
-const Discord = require('discord.js');
 const base_url = "https://api.tracker.gg/api/v2/rocket-league/standard/profile/"
 const fetch = require('node-fetch');
 
@@ -23,7 +22,7 @@ module.exports = {
             console.log("error")
             json = []
         }
-
+        // check if user is already in log
         let res = ""
         let found = false;
         for (let i = 0; i < json.length; i++) {
@@ -34,6 +33,7 @@ module.exports = {
                 break;
             }
         }
+        // gets user info if not found
         if (!found) {
             let url = base_url + args[0] + '/' + args[1];
             fetch(url, {
@@ -55,6 +55,12 @@ module.exports = {
 
 };
 
+/**
+ * saves the updated log to log.json and messages user that the player was added.
+ * @param json log data
+ * @param data new player json from API call
+ * @param msg discord message
+ */
 function saveJson(json, data, msg) {
     let user = data.data.platformInfo.platformUserHandle;
     let entry = {
